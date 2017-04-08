@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>慕课网</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="" title="首页"/></a>
+    <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="path.html">职业路径</a></li>
+        <li><a href="course.html">课程</a></li>
+        <li><a href="javascript:;">猿问</a></li>
+        <li><a href="javascript:;">手记</a></li>
+    </ul>
+    <form class="wrap" action="#" target="_blank" method="get">
+        <input type="text" class="txt" placeholder="搜索..."/>
+        <input type="submit" class="srch" title="搜索" value=""/>
+    </form>
+    <div class="user" id="loginin">
+        <a href="login.html" class="log">登录</a>
+        <a href="login.html" class="reg">注册</a>
+    </div>
+    <div class="user" id="islogin" style="display:none;">
+        <a id="msg" href="javascript:void(0);">你好</a>
+        <a href="javascript:void(0);" onclick="userQuit()">退出</a>
+    </div>
+</div>
+<div class="main">
+    <div class="bk"></div>
+    <div class="banner">
+        <ul class="pic">
+            <li><a href="course2.2.html" target="_blank"><img src="img/58be93bd00016f9312000460.jpg"/></a></li>
+            <li><a href="course1.4.html" target="_blank"><img src="img/58a566300001c75e12000460.jpg"/></a></li>
+            <li><a href="course2.1.html" target="_blank"><img src="img/58b8e49b0001d17f12000460.jpg"/></a></li>
+            <li><a href="course3.1.html" target="_blank"><img src="img/58b949cd00013f9612000460.jpg"/></a></li>
+            <li><a href="course1.3.html" target="_blank"><img src="img/5899a4bb000169c412000460.jpg"/></a></li>
+            <li><a href="course1.1.html" target="_blank"><img src="img/58a567a00001c68912000460.jpg"/></a></li>
+        </ul>
+        <ul class="pg">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="btn prev"><</div>
+        <div class="btn next">></div>
+    </div>
+    <div class="path">
+        <a href="path.html" target="_blank" class="path_1"><img src="img/path_1.png"/></a>
+        <a href="course.html" target="_blank" class="path_2"><img src="img/path_2.png"/></a>
+        <a href="course.html" target="_blank" class="path_3"><img src="img/path_3.png"/></a>
+        <a href="course.html" target="_blank" class="path_4"><img src="img/path_4.png"/></a>
+    </div>
+    <div class="container">
+        <h3 class="tit">
+            实战推荐
+            <a href="course.html" target="_blank" class="more">更多&nbsp;&nbsp;&nbsp;></a>
+        </h3>
+        <div class="content">
+            <div class="card">
+                <a class="course" href="course1.3.html" target="_blank">
+                    <div class="cou_top orange">
+                        HTML/CSS&nbsp;&nbsp;JavaScript
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">微信小程序入门与实战 常用组件 API 开发技巧 项目实战</h3>
+                        <p class="cou_info" title="开发一个集新闻阅读与电影影讯为一体的小程序，学会小程序开发">开发一个集新闻阅读与电影影讯为一体的小程序，学会小程序开发</p>
+                        <div class="cou_btm">
+                            <span class="num">4138人在学</span>
+                            <span class="price">￥149.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/583e42fb0001e04f05400300-360-202.jpg)"></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course1.4.html" target="_blank">
+                    <div class="cou_top blue">
+                        JavaScript&nbsp;&nbsp;WebApp
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">Vue.js高仿饿了么外卖App 最火前端框架 1.0升级2.0</h3>
+                        <p class="cou_info" title="vue.js 兼具 angular.js 和 react.js 的优点，并剔除它们的缺点">vue.js 兼具 angular.js 和
+                            react.js 的优点，并剔除它们的缺点</p>
+                        <div class="cou_btm">
+                            <span class="num">2561人在学</span>
+                            <span class="price">￥198.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/582ac41a0001d3c705400300-360-202.jpg)" )></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course1.1.html" target="_blank">
+                    <div class="cou_top red">
+                        AngularJS
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">AngularJS仿拉勾网WebApp 开发移动端单页应用</h3>
+                        <p class="cou_info" title="基于AngularJS，仿拉勾网开发一个招聘类的移动端单页应用">基于AngularJS，仿拉勾网开发一个招聘类的移动端单页应用</p>
+                        <div class="cou_btm">
+                            <span class="num">2441人在学</span>
+                            <span class="price">￥128.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/576b84c10001b1c005400300-360-202.jpg)" )></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course3.4.html" target="_blank">
+                    <div class="cou_top blue">
+                        Android
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">巧用第三方快速开发Android App 热门SDK及框架</h3>
+                        <p class="cou_info" title="用Picasso、RXvolley、Bmob、Zxing等热门第三方SDK及框架，集成开发一个完整App">
+                            用Picasso、RXvolley、Bmob、Zxing等热门第三方SDK及框架，集成开发一个完整App</p>
+                        <div class="cou_btm">
+                            <span class="num">258人在学</span>
+                            <span class="price">￥149.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/5876eed20001476f05400300-360-202.jpg)"></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course3.1.html" target="_blank">
+                    <div class="cou_top green">
+                        React Native
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">ReactNative开发跨平台GitHub App</h3>
+                        <p class="cou_info" title="用一款最受欢迎GitHub开源项目App教你完全学会React Native开发跨平台App">
+                            用一款最受欢迎GitHub开源项目App教你完全学会React Native开发跨平台App</p>
+                        <div class="cou_btm">
+                            <span class="num">2400人在学</span>
+                            <span class="price">￥128.00</span>
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/576376440001766205400300-360-202.jpg)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="tit">
+            免费好课
+            <a href="course.html" target="_blank" class="more">更多&nbsp;&nbsp;&nbsp;></a>
+        </h3>
+        <div class="content">
+            <div class="card">
+                <a class="course" href="course.html" target="_blank">
+                    <div class="cou_top orange">
+                        HTML/CSS
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">HTML+CSS基础课程</h3>
+                        <p class="cou_info" title="HTML+CSS基础教程8小时带领大家步步深入学习标签用法和意义">
+                            HTML+CSS基础教程8小时带领大家步步深入学习标签用法和意义</p>
+                        <div class="cou_btm btm">
+                            初级<strong>&nbsp;·&nbsp;</strong>642033人在学
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/cover050_s.jpg)" )></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course.html" target="_blank">
+                    <div class="cou_top blue">
+                        JavaScript
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">JavaScript入门篇</h3>
+                        <p class="cou_info" title="JavaScript做为一名Web工程师的必备技术，本教程让您快速入门">
+                            JavaScript做为一名Web工程师的必备技术，本教程让您快速入门</p>
+                        <div class="cou_btm btm">
+                            初级<strong>&nbsp;·&nbsp;</strong>423704人在学
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/cover042_s.jpg)" )></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course.html" target="_blank">
+                    <div class="cou_top red">
+                        Java
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">JavaScript入门篇</h3>
+                        <p class="cou_info" title="JavaScript做为一名Web工程师的必备技术，本教程让您快速入门">
+                            JavaScript做为一名Web工程师的必备技术，本教程让您快速入门</p>
+                        <div class="cou_btm btm">
+                            初级<strong>&nbsp;·&nbsp;</strong>579938人在学
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/cover009_s.jpg)" )></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course.html" target="_blank">
+                    <div class="cou_top blue">
+                        PHP
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">PHP入门篇</h3>
+                        <p class="cou_info" title="PHP入门轻松学习，行业大牛帮您快速掌握PHP编程基础知识。">PHP入门轻松学习，行业大牛帮您快速掌握PHP编程基础知识。</p>
+                        <div class="cou_btm btm">
+                            初级<strong>&nbsp;·&nbsp;</strong>287948人在学
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/cover019_s.jpg)" )></div>
+            </div>
+            <div class="card">
+                <a class="course" href="course.html" target="_blank">
+                    <div class="cou_top green">
+                        Android
+                    </div>
+                    <div class="cou_con">
+                        <h3 class="cou_name">Android攻城狮的第一门课（入门篇）</h3>
+                        <p class="cou_info" title="想快速掌握Android应用开发基础，选择学习这门课程就对了。">想快速掌握Android应用开发基础，选择学习这门课程就对了。</p>
+                        <div class="cou_btm btm">
+                            初级<strong>&nbsp;·&nbsp;</strong>235093人在学
+                        </div>
+                    </div>
+                </a>
+                <div class="card_bk" style="background-image:url(img/cover017_s.jpg)" )></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="fwrap">
+        <div class="fsns">
+            <a href="javascript:;" class="weibo"></a>
+            <a href="javascript:;" class="weixin"></a>
+            <a href="javascript:;" class="qqweibo"></a>
+            <a href="javascript:;" class="qzone"></a>
+        </div>
+        <div class="flink">
+            <a href="javascript:;">企业合作</a>
+            <a href="javascript:;">人才招聘</a>
+            <a href="javascript:;">联系我们</a>
+            <a href="javascript:;">讲师招募</a>
+            <a href="javascript:;">常见问题</a>
+            <a href="javascript:;">意见反馈</a>
+            <a href="javascript:;">慕课大学</a>
+            <a href="javascript:;">友情链接</a>
+        </div>
+        <p class="fbtm">©&nbsp;2017&nbsp;imooc.com&nbsp;&nbsp;京ICP备 13046642号-2</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script src="js/focusmap.js"></script>
+<script src="js/loginshow.js"></script>
+</body>
+</html>

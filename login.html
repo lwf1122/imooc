@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>慕课网登录</title>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+</head>
+
+<body>
+<div class="header"><a href="index.html" class="logo"></a></div>
+<div class="box">
+    <div class="tit">
+        <ul class="otit">
+            <li class="select"><a href="javascript:;">登录</a></li>
+            <li><a href="javascript:;">注册</a></li>
+        </ul>
+        <!--<button type="button" class="close" id="close"></button>-->
+    </div>
+    <div class="con">
+        <ul class="ocon">
+            <li>
+                <div class="log">
+                    <input type="text" class="user" name="user" id="login_user" placeholder="请输入登录邮箱/手机号"/>
+                    <p>请输入正确的邮箱或手机号</p>
+                    <input type="password" class="pass" name="pass" id="login_pass" placeholder="6-16位密码，区分大小写，不能用空格"/>
+                    <p>请输入6-16位密码，区分大小写，不能使用空格!</p>
+                    <label for="signin" class="remember">
+                        <input type="checkbox" checked="checked" id="signin"/>下次自动登录
+                    </label>
+                    <a href="javascript:;" class="forget">忘记密码</a>
+                    <input type="button" class="login" id="login" value="登录" />
+                </div>
+            </li>
+            
+            <li>
+                <div class="reg">
+                    <input type="text" class="user" name="user" id="user" placeholder="请输入登录邮箱/手机号"/>
+                    <p>请输入正确的邮箱或手机号</p>
+                    <input type="password" class="pass" name="pass" id="pass" placeholder="6-16位密码，区分大小写，不能用空格"/>
+                    <p>请输入6-16位密码，区分大小写，不能使用空格!</p>
+                    <!--<input type="password" class="pass" name="pass" placeholder="请再次输入密码"/>
+                    <p>两次密码不一致！</p>-->
+                    <input type="button" class="register" id="register" value="注册" />
+                 </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer"><p>© 2014 imooc.com All Rights Reserved  京ICP备 13046642号</p></div>
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<script src="js/login.js"></script>
+<script src="js/logindb.js"></script>
+</body>
+</html>

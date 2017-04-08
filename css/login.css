@@ -1,0 +1,26 @@
+*{margin:0; padding:0; list-style:none;}
+.header{padding:50px; text-align:center; background:#EDF1F2;}
+.header .logo{display:inline-block; height:46px; width:136px; background:url(../img/siglogo.png) center center no-repeat;}
+.box{width:360px; height:363px; margin:50px auto;}
+.tit{width:320px; height:50px; margin:0 auto; border-bottom:1px #D0D6D9 solid; position:relative;}
+.otit li{float:left;}
+.otit li a{display:block; width:80px; height:49px; line-height:49px; text-align:center; color:#787d82; cursor:pointer; text-decoration:none;}
+.otit li a:hover{color:#F01400; border-bottom:1px #F01400 solid;}
+.otit li.select a{color:#F01400; border-bottom:1px #F01400 solid;}
+.tit .close{position: absolute; top:17px; right:0; width:17px; height:17px;  border:0; padding:0; cursor:pointer; background:url(../img/nlogin.png) no-repeat; transition:transform .2s; -webkit-transition:transform .2s; outline:0;}
+.tit .close:hover{background:url(../img/nlogin.png) no-repeat 0 -20px;}
+.ocon .log,.ocon .reg{width:300px; margin:30px auto;}
+.ocon li{display:none;}
+.ocon p{visibility:hidden;}
+
+.log .user,.log .pass,.reg .user,.reg .pass{width:279px; height:20px; line-height:20px; margin:0 auto; padding:9px 9px 9px 10px; background-color:#fff; border-color:#d0d6d9; box-shadow:2px 0 5px 0 #fff; outline:0; font-size:14px; border:1px solid #98a1a6; color:#14191e;}
+.log p,.reg p{font-size:12px; height:20px; clear:both; line-height:20px; color:#EF1300;}
+.log .remember{color:#787d82; float:left; font-size:14px; line-height:14px;}
+.log .remember input{margin-right:10px; vertical-align:-1px; border:0; outline:0;}
+.log .forget{color: #787d82; text-decoration:none; font-size:14px; line-height:14px; outline:0; float:right;}
+.log .forget:hover{color:#F01400;}
+.log .login,.reg .register{color:#FFF; background-color:#f01400; border:1px #f01400 solid; width:300px; height:50px; line-height:50px; font-size:16px; font-family:"PingFang SC", Helvetica, "Helvetica Neue", 微软雅黑, Tahoma, Arial, sans-serif; transition:all .3s; outline:0; margin-top:20px;}
+.log .login:hover,.reg .register:hover{background-color:#ff6464; border-color:#ff6464;}
+
+.footer{text-align:center; padding:10px;}
+.footer p{color:#b5b9bc; font-size:12px; line-height:50px;}

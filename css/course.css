@@ -1,0 +1,38 @@
+*{margin:0; padding:0; list-style:none; text-decoration:none;}
+body{background:#F3F5F7;}
+.header{width:auto; height:60px; margin:0 auto; background:#000; position:relative;}
+.header .logo{display:block; width:140px; height:60px; margin:0 20px; background:url(../img/logo_1.png) no-repeat center center; float:left;}
+.header .nav li{float:left;}
+.header .nav li a{display:block; padding:0 25px; height:60px; line-height:60px; text-align:center; font-size:14px; color:#FFF;}
+.header .wrap{position:absolute; left:845px; top:10px; height:39px; border-bottom:1px solid #606468;}
+.header .wrap .txt{float:left; width:200px; height:39px; line-height:39px; font-size:12px; float:left; border:0; outline:0; color:#FFF; background-color:#000; padding-left:10px;}
+.header .wrap .srch{float:right; background:url(../img/srch_1.png) no-repeat; width:31px; height:37px; border:0; cursor:pointer; outline:0;}
+.header .user{position:absolute; right:10px;}
+.header .user a{display:block; width:60px; height:60px; line-height:60px; text-align:center; color:#787d82; font-size:14px; float:left;}
+.header .nav li a:hover,.user a:hover{background-color:#1E2225;}
+.main{width:100%; height:1050px;}
+.main .list{width:1200px; margin:0 auto; padding:32px 0; text-align:center;}
+.main .list a{dispaly:block; padding:8px 12px; margin:0 6px; border-radius:2px; font-size:14px; line-height:14px; color:#000;}
+.main .list a.on{background-color:#F01414; color:#FFF;}
+.main .course{position:relative; width:1200px; margin:0 auto;}
+.main .course li{position:absolute; display:none;}
+.main .course .wrap{width:1200px; height:205px; margin:30px auto 0; border-bottom:1px solid #11a984;}
+.main .course .wrap:last-child{border-bottom:0;}
+.wrap .card{width:224px; height:172px; box-shadow:0 5px 10px 0 rgba(0,0,0,0.1); float:left; transition:.5s all;}
+.wrap .card .con{width:224px; height:172px; overflow:hidden; position:relative;}
+.wrap .card .con img{width:100%; height:124px;}
+.wrap .card .con .info{position:absolute; padding:0 20px; transition:top .5s; top:65px; height:144px; width:184px; background-image:url(../img/bg-course.png);}
+.wrap .card .con .info h3{padding:16px 0 6px; font-size:14px; font-weight:normal; font-family:"Microsoft YaHei"; max-height:40px; overflow:hidden; color:#07111b; line-height:21px;}
+.wrap .card .con .info p{color:#93999f; font-size:12px; height:40px; overflow:hidden; line-height:20px;}
+.wrap .card .con .btm{position:absolute; padding:0 20px; bottom:0; width:100%; height:42px; font-size:12px; line-height:36px; color:#93999f; background-color:#FFF;}
+.wrap .card a:hover .info{top:30px;}
+.wrap .card:hover{box-shadow:0 5px 10px 3px rgba(0,0,0,0.1);}
+.wrap .dsc{width:900px; float:left;padding:10px 20px;}
+.wrap .dsc h3{font-size:16px; line-height:40px; color:#11a984; font-weight:500;}
+.wrap .dsc p{font-size:14px; line-height:28px; color:#333;}
+.footer{font-size:12px; color:#787d82; background-color:#000; padding:27px 0; min-width:620px;}
+.footer .bottom{width:auto; max-width:1200px; margin:0 auto;}
+.footer .bottom .blink{padding-left:40px; margin-bottom:5px;}
+.footer .bottom .blink a{display:inline-block; margin-right:30px; text-align:center; color:#c8cdd2}
+.footer .bottom .blink a:hover{color:#FFF;}
+.footer .bottom p{padding-left:40px; line-height:20px;}
